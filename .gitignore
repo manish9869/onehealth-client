@@ -1,0 +1,34 @@
+# All the ignore for Vite react project
+
+# Ignore node_modules
+node_modules
+
+# Ignore build
+dist
+
+# Ignore .env
+.env
+
+# Ignore .DS_Store
+.DS_Store
+
+# Ignore .vscode
+.vscode
+
+# Ignore .idea
+.idea
+
+# Ignore .cache
+.cache
+
+# Ignore .npm
+.npm
+
+# Ignore .yarn
+.yarn
+
+# Ignore .yarnrc
+.yarnrc
+
+# Package lock file
+package-lock.json

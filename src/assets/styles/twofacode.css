@@ -1,0 +1,29 @@
+.twofa-code-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.twofa-code-title {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.twofa-code-text {
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+}
+
+.twofa-code-input {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.twofa-code-button {
+    width: 100%;
+    max-width: 250px;
+}

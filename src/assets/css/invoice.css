@@ -1,0 +1,64 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.table th,
+.table td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #dee2e6; /* Light border color */
+}
+
+.table th {
+  background-color: grey; /* Bootstrap success color */
+  color: white; /* Text color */
+}
+
+.table tr:nth-child(even) {
+  background-color: #f8f9fa; /* Light grey for even rows */
+}
+
+.table tr:hover {
+  background-color: #e9ecef; /* Light hover effect */
+}
+
+.text-right {
+  text-align: right;
+}
+
+.font-weight-bold {
+  font-weight: bold;
+}
+
+.card {
+  border: none; /* Remove card border */
+  border-radius: 0.5rem; /* Slightly round corners */
+}
+
+.card-header {
+  background-color: #343a40; /* Dark background for the header */
+  color: white; /* Text color */
+  padding: 10px; /* Padding for the header */
+}
+
+.bg-secondary {
+  background-color: #f8f9fa; /* Light background for card */
+}
+
+.mt-4 {
+  margin-top: 1.5rem; /* Margin top */
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem; /* Margin bottom */
+}
+
+.text-success {
+  color: #28a745; /* Success color */
+}
+
+.text-danger {
+  color: #dc3545; /* Danger color */
+}

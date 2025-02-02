@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Monoton:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.logo-icon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  background: rgba(28, 17, 41, 0.88);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  padding: 10px;
+}
+
+.sidebar-footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -5px;
+}
+
+.toggle-theme-btn {
+  background-color: #002140;
+  border: none;
+  padding: 25px;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  border-radius: 0;
+}
+
+.collapse-button {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  background: transparent;
+  border: none;
+
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.toggle-theme-btn:hover {
+  border: none !important;
+}
+
+.ant-menu-dark .ant-menu-item-selected,
+.ant-menu-dark > .ant-menu .ant-menu-item-selected {
+  background-color: #6c757d;
+  color: #ffffff;
+}
+
+.ant-menu-dark .ant-menu-item:hover {
+  background-color: #5a6268;
+  color: #ffffff;
+}
+
+.ant-menu-dark .ant-menu-item-selected,
+.ant-menu-dark > .ant-menu .ant-menu-item-selected {
+  background-color: #6c757d;
+}
+
+.sidebar {
+  position: fixed;
+  height: 85vh;
+  overflow-y: auto;
+  z-index: 1000;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Thumb color for Chrome, Safari, Edge */
+  border-radius: 4px; /* Round edges for the thumb */
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1); /* Background color for the track */
+}
+
+/* Apply styles to all scrollable elements */
+* {
+  scrollbar-width: thin; /* For Firefox */
+  scrollbar-color: rgba(0, 0, 0, 0.5) rgba(0, 0, 0, 0.1); /* Thumb and track colors for Firefox */
+}
+
+.ant-btn-color-dangerous {
+  box-shadow: none !important;
+}
+.ant-btn-color-primary {
+  box-shadow: none !important;
+}
+.ant-checkbox .ant-checkbox-inner {
+  background-color: #ffffff;
+}
+.ant-input-outlined {
+  border-color: rgb(158 158 158 / 64%);
+}
+
+.ant-table-wrapper {
+  overflow: auto;
+}
+
+.ant-table {
+  width: 100%;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .logo-icon {
+    width: 40px;
+    height: 40px;
+    font-size: 1.5rem;
+  }
+
+  .toggle-theme-btn {
+    padding: 25px;
+    font-size: 22px;
+  }
+
+  .collapse-button {
+    top: 20px;
+    font-size: 24px;
+  }
+
+  .sidebar {
+    height: 85vh;
+  }
+
+  .ant-layout-content {
+    margin-top: 15% !important;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  /* Tablet */
+
+  .logo-icon {
+    width: 35px;
+    height: 35px;
+    font-size: 1.4rem;
+  }
+
+  .toggle-theme-btn {
+    padding: 25px;
+    /* border: 2px solid red; */
+    font-size: 20px;
+  }
+
+  .collapse-button {
+    top: 15px;
+    font-size: 22px;
+  }
+  .ant-layout-content {
+    margin-top: 15% !important;
+  }
+
+  .sidebar-footer {
+    bottom: -10px;
+  }
+}
+
+.navbar {
+  font-size: medium;
+}
+
+.ant-layout-content {
+  margin-top: 60px;
+}
+
+@media (max-width: 480px) {
+  .ant-layout-content {
+    margin-top: 50px;
+  }
+
+  .navbar {
+    font-size: smaller;
+  }
+
+  .collapse-button {
+    top: 10px;
+    font-size: 20px;
+  }
+  .ant-layout-content {
+    margin-top: 15% !important;
+  }
+  .sidebar {
+    height: 100vh;
+  }
+
+  .ant-layout-sider .ant-layout-sider-trigger,
+  .ant-layout-sider .ant-layout-sider-trigger {
+    position: absolute;
+    left: 0;
+    right: 0;
+  }
+
+  .sidebar-footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 100px;
+  }
+}
